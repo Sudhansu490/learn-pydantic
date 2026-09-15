@@ -1,3 +1,6 @@
+# A nested model in Pydantic is a model that contains another Pydantic model as one of its fields.
+# It is used to represent hierarchical or structured data and allows Pydantic to validate each nested level independently.
+
 from pydantic import BaseModel
 
 class Address(BaseModel):
@@ -24,23 +27,6 @@ patient1 = Patient(**patient_dict)
 temp = patient1.model_dump(include=)
 
 print(type(temp))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

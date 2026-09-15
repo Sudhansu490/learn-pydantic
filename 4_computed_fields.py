@@ -1,3 +1,6 @@
+# A computed field in Pydantic is a field whose value is dynamically calculated from other model fields.
+# It is defined using the @computed_field decorator and is useful for representing derived values without requiring them as input.
+
 from pydantic import BaseModel, EmailStr, computed_field
 from typing import List, Dict
 
