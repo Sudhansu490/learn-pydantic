@@ -105,7 +105,7 @@ patient1.model_dump_json()               # JSON string
 
 ## Installation
 
-Requires Python >= 3.9. Dependencies are defined in `pyproject.toml`.
+Requires Python >= 3.13 (tested on 3.13.9). Dependencies are defined in `pyproject.toml`.
 
 ```bash
 # with pip

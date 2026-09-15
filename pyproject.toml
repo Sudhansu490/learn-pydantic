@@ -3,16 +3,13 @@ name = "learn-pydantic"
 version = "0.1.0"
 description = "Learn Pydantic v2 by example - validators, nested models & serialization with 6 hands-on demos"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.13"
 license = { text = "MIT" }
 authors = [{ name = "Sudhansu490", email = "sudhansu490@github.com" }]
 keywords = ["pydantic", "pydantic-v2", "data-validation", "python", "serialization"]
 classifiers = [
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Intended Audience :: Developers",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
