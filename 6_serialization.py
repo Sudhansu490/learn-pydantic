@@ -1,6 +1,4 @@
-# Serialization = converting a complex object into a simpler data format that can be stored or transferred.
-# Pydantic Model → dict/JSON    = Serialization
-# dict/JSON → Pydantic Model    = Deserialization
+# Serialization: Model → dict/JSON | Deserialization: dict/JSON → Model
 
 from pydantic import BaseModel
 

@@ -1,5 +1,4 @@
-# A field validator is a custom validation function that validates or transforms the value of a specific field in a Pydantic model.
-# It is used when the default type validation is not sufficient and additional business rules need to be applied.
+# Field validator: custom validation for a single field (@field_validator)
 
 from pydantic import BaseModel, EmailStr, field_validator
 from typing import List, Dict
@@ -39,8 +38,7 @@ class Patient(BaseModel):
             return value
         else:
             raise ValueError('Age should be in between 0 and 100')
-# 'mode' is used to specify when the validator should be called. The default mode is 'before', which means the validator will be called before 
-# any other validation or type coercion. The 'after' mode means the validator will be called after all other validation and type coercion has been performed.
+# mode='after' runs after type coercion, 'before' runs before
 
 
 def update_patient_data(patient: Patient):
