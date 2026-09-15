@@ -1,4 +1,7 @@
-# Basics: BaseModel, Field, EmailStr, AnyUrl - data validation using type hints
+# Pydantic is a Python library used for data validation, data parsing, and data management using Python type hints.
+# It allows us to define the structure and expected data types of our data using Python classes.
+
+# Pydantic is useful when an application receives data from outside sources, such as: API requests, JSON data, Forms, Configuration files, Databases etc.
 
 from pydantic import BaseModel, EmailStr, AnyUrl, Field
 from typing import List, Dict, Optional, Annotated

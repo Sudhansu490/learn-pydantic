@@ -1,4 +1,6 @@
-# Model validator: validates entire model / multiple fields (@model_validator)
+# A model validator in Pydantic is a custom validation mechanism used to validate the entire model.
+# It is particularly useful for validation rules that depend on multiple fields or relationships between fields.
+# In Pydantic v2, it is defined using the @model_validator decorator with modes such as before and after.
 
 from pydantic import BaseModel, EmailStr, model_validator
 from typing import List, Dict
